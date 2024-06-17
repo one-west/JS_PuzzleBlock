@@ -54,7 +54,7 @@ function drawTetromino(tetromino, offsetX, offsetY) {
 function gameLoop() {
   const now = Date.now();
   const delta = now - dropStart;
-  console.log(delta);
+  console.log(delta); 
   if (delta > 1000 - level * 100) {
     moveDown();
     dropStart = Date.now();
