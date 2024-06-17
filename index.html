@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>one-west의 추억의 테트리스</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+    />
+
+    <audio id="se_game_single" src="./audio/03 - SE_GAME_SINGLE.wav"></audio>
+    <audio id="se_game_tetris" src="./audio/06 - SE_GAME_TETRIS.wav"></audio>
+    <audio id="se_game_move" src="./audio/08 - SE_GAME_MOVE.wav"></audio>
+    <audio id="se_game_landing" src="./audio/09 - SE_GAME_LANDING.wav"></audio>
+    <audio id="se_game_bfall" src="./audio/10 - SE_GAME_BFALL.wav"></audio>
+    <audio id="se_game_rotate" src="./audio/11 - SE_GAME_ROTATE.wav"></audio>
+    <audio id="me_mara_lvup" src="./audio/12 - ME_MARA_LVUP.wav"></audio>
+
+    
+  </head>
+  <body>
+    <div class="grid">
+      <canvas id="board" class="board"></canvas>
+      <div class="right-column">
+        <div>
+          <h1>TETRIS</h1>
+          <p>Score: <span id="score">0</span></p>
+          <p>Lines: <span id="lines">0</span></p>
+          <p>Level: <span id="level">0</span></p>
+        </div>
+        <div class="description">
+          <p>description</p>
+          <p>Level 1 += score 500</p>
+          <p>
+            <br />
+          </p>
+
+          <p>[Use-key]</p>
+          <p>← : Move left</p>
+          <p>→ : Move right</p>
+          <p>↑ : Move rotate</p>
+          <p>↓ : Move down</p>
+          <p>Esc : Game over</p>
+          <p>Space-bar : Move button</p>
+        </div>
+        <button class="play-button" id="play-button">Play</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="tetrominoes.js"></script>
+    <script type="text/javascript" src="board.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
