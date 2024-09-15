@@ -24,12 +24,7 @@
 
 - 1989년 개발된 닌텐도의 게임보이 Tetris를 참조해서 만들었다.
 
-<img src="https://github.com/user-attachments/assets/3342381e-ddf7-4160-92a5-c2595a15f682" width="700" alt="게임보이 테트리스">  
+- Tetris라는 이름을 사용하지 않은 이유는 저작권 때문
 
-<br>
-
-
-
-<img src="https://github.com/user-attachments/assets/97fb8fac-f7c3-40f3-9519-1633bee4251e" width="600" alt="Super famicom">
-<img src="https://github.com/user-attachments/assets/3ee0e0ea-c065-4f30-b5ac-89001e3f8dd5" width="300" alt="Game boy">
-
+<img src="https://github.com/user-attachments/assets/3342381e-ddf7-4160-92a5-c2595a15f682" width="700" alt="게임보이 테트리스">
+ 
